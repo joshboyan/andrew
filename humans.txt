@@ -1,0 +1,55 @@
+/* TEAM */
+
+                            
+Designer: 
+	
+	Andrew Johansen
+
+Developers: 
+	
+	Nathan Karasch
+	https://www.linkedin.com/in/nathankarasch
+
+	Josh Boyan
+
+                            
+Location: Portland, OR.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Compressor.io
+
+HostPond
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: YYYY/MM/DD 
+
+                            
+Standards: HTML5, CSS3, Schema.org, W3C
+
+                            
+Components: SCSS, mailchimp
+
+                            
+Software: Illustrator, SublimeText 2, GIMP, Inkscape
+
+This site was 80% coded when I (Josh) started development on it. The HTML markup was all in place and positioning was mostly completed on most of the pages for a full screen desktop view. The client (Andrew) initially against using responsive design before I explained the usibility and SEO benefits of using responsive design. After a lengthy email dialouge about costs and benefits of using responsive design he agree it was the way to go. I implemented the styles to make the site fully responsive.
+
+The client was not happy with the quality of the art work and links on the pages when I recieved it. He had created mockups in Adobe illustrator and the actual site content was of far lower quality. I solved this by resampling the navigation images from the Illustrator files as SVG images and compressing them. I resampled the main banner artwork as PNGs to keep the file size small and retouched the sharpness using GIMP to improve the definition of the artwork.
+
+The client also wanted an email collection micro-conversion on each page that I set up using mailchimp.
