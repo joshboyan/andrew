@@ -453,10 +453,10 @@ p.introduction:first-letter {
 
   .nav-buffer {
     height: 150px; } }
-@media all and
+@media screen and
 (max-width: 768px)
 (-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+(min-resolution: 1920dpi) {
   .nav-logo > img {
     margin-top: 55px;
     margin-left: 35px;
