@@ -8,3 +8,11 @@ function onClick () {
 		$('#mobile').toggleClass('show');
 	});
 }
+$('a').hover(
+	function(){ $(this).addClass('hover') },
+	function(){ $(this).removeClass('hover') }
+)
+$('.nav-item').hover(
+	function(){ $(this).addClass('hover-gradient') },
+	function(){ $(this).removeClass('hover-gradient') }
+)

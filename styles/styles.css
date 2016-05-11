@@ -27,7 +27,18 @@ a {
   color: #d9b6ff; }
 
 a:hover {
-  color: #9999cc; }
+  color: #9999cc;
+   opacity: .9;
+  }
+.hover {
+
+}
+.hover-gradient {
+    background: rgba(0,0,0,.3);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(210,168,255,1) 35%, rgba(210,168,255,1) 52%, rgba(210,168,255,1) 71%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,.1) 0%, rgba(210,168,255,.1) 35%, rgba(210,168,255,.1) 52%, rgba(210,168,255,.1) 71%, rgba(0,0,0,.1) 10%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+}
 
 .nav-container {
   position: fixed;
@@ -179,6 +190,11 @@ footer {
   text-decoration: none;
   margin: 0 5px; }
 
+footer a:hover {
+  padding-left: 1px;
+  margin-right: 4px;
+
+}
 .copyright-info {
   font-size: .8em;
   line-height: 1;
@@ -287,6 +303,13 @@ p.introduction:first-letter {
   width: 560px;
   float: right; }
 
+@media all and (max-width: 1345px) {
+  .nav-left {
+    right: 40%;
+    width: 35%;
+  }
+}
+
 @media all and (max-width: 1250px) {
   .nav-box {
     float: none; }
@@ -300,12 +323,24 @@ p.introduction:first-letter {
 
   .nav-left,
   .nav-right {
-    top: 5px; } }
+    top: 5px; }
+  .nav-left {
+    right: 50%;
+  }}
+@media all and (max-width: 1125px) {
+    .nav-left {
+        right: 55%;
+    }
 @media all and (max-width: 992px) {
   header {
     position: initial;
     width: auto;
     margin: 40px 7vw; }
+
+    .nav-left {
+        right: 55%;
+        width: 38%;
+    }
 
   .subscribe {
     position: initial;
@@ -320,6 +355,11 @@ p.introduction:first-letter {
   .col-left,
   .col-right {
     width: 42vw; } }
+
+@media all and (max-width: 850px) {
+  .nav-left {
+     right: 60%;
+  }
 @media all and (max-width: 768px) {
   #mobile-trigger {
     display: block;

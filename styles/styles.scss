@@ -238,6 +238,12 @@ footer {
   margin: 0 5px;
 }
 
+footer a:hover {
+  padding-left: 1px;
+  margin-right: 4px;
+  opacity: .8;
+}
+
 .copyright-info {
   font-size: .8em;
   line-height: 1;
@@ -370,6 +376,13 @@ p.introduction:first-letter {
   float: right;
 }
 
+@media all and (max-width: 1335px) {
+  .nav-left {
+
+
+    width: 35%;
+  }
+
 // Medium screen sizes
 @media all and (max-width: 1250px) {
   // Nav menu collapses to 2 stacked rows
@@ -388,7 +401,10 @@ p.introduction:first-letter {
     top: 5px;
   }
 }
-
+@media all and (max-width: 1125px) {
+  .nav-left {
+    right: 55%;
+  }
 // Small screen sizes
 @media all and (max-width: 992px) {
   // Linear layout for Page Title and Subscribe sections
@@ -412,7 +428,10 @@ p.introduction:first-letter {
     width: 42vw;
   }
 }
-
+@media all and (max-width: 850px) {
+  .nav-left {
+    right: 60%;
+   }
 // Extra small screen sizes
 @media all and (max-width: 768px) {
   // Menu and footer items shrink to 75% original size.
